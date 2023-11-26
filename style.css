@@ -1,0 +1,27 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.disabled{
+    background-color: lightgray;
+}
+.enabled{
+    background-color: inherit;
+}
+input[type=number]::-webkit-inner-spin-button {
+    opacity: 1
+}
+fieldset {
+    max-width: max-content;
+    margin:auto; 
+}
+div.content {
+    text-align: center;
+}
+input[type=button] {
+  font-size: 2rem;
+}
+p.one-line-code::before {
+  content: '    ';
+  white-space: pre-wrap;
+}

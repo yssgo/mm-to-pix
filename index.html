@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>픽셀 단위 변환</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="jquery-3.7.1.slim.min.js"></script>
+</head>
+
+<body>
+    <div class="content">
+    <h1>픽셀 단위 변환</h1>
+    <form>
+      <p>
+          <input type="text" id="nbUnitsX" placeholder="0" value=""> x
+          <input type="text" id="nbUnitsY" placeholder="0" value="">
+        <select id="unit_select">
+        <option value="mm">
+          밀리미터(mm)
+        </option>
+        <option value="cm">
+          센티미터(cm)
+        </option>
+        <option value="in">
+          인치(in)
+        </option>
+        <option value="px" selected="selected">
+          픽셀(px)
+        </option>
+      </select></p>
+      <p>
+          <input type="text" id="nbUnitsConvertedX" placeholder="0"
+          value="" readonly="readonly" class="disabled">
+          x
+          <input type="text" id="nbUnitsConvertedY" placeholder="0"
+          value="" readonly="readonly" class="disabled">
+           <select id="convert_unit_select">
+        <option value="mm">
+          밀리미터(mm)
+        </option>
+        <option value="cm" selected="selected">
+          센티미터(cm)
+        </option>
+        <option value="in">
+          인치(in)
+        </option>
+        <option value="px">
+          픽셀(px)
+        </option>
+      </select></p>
+      
+      <fieldset>
+        <legend>DPI 선택</legend>
+        <p><input
+        type="radio"
+        name="choice_method"
+        checked="checked"
+        value="선택"
+        onchange="methodchanged()">선택
+        <input
+        type="radio"
+        name="choice_method"
+        value="직접 입력"
+        onchange="methodchanged()">직접 입력</p>
+        <fieldset id="fsDPI">
+          <input
+          type="radio"
+          name="dpi_radio"
+          checked="checked"
+          id="dr300"
+          value="300"
+          onchange="dpi_radio_changed()">300 &nbsp
+          <input
+          type="radio"
+          name="dpi_radio"
+          value="96"
+          onchange="dpi_radio_changed()">96 &nbsp
+          <input
+          type="radio"
+          name="dpi_radio"
+          value="72"
+          onchange="dpi_radio_changed()">72 &nbsp
+          <input
+          type="radio"
+          name="dpi_radio"
+          value="150"
+          onchange="dpi_radio_changed()">150 &nbsp
+          <input
+          type="radio"
+          name="dpi_radio"
+          value="90"
+          onchange="dpi_radio_changed()">90 &nbsp
+        </fieldset>
+        <p><input
+        type="text"
+        id="dpi_text"
+        placeholder="300"
+        value="300"
+        readonly="readonly"
+        class="disabled">DPI</p>
+      </fieldset>
+      <p><input id="roundpixel" type="checkbox" onchange="convert();" checked><label for="roundpixel">픽셀 결과를 정수로 반올림</label></p>
+      <p>
+        <input
+        type="button"
+        value="변환"
+        onclick="convert()"> (소수점 이하
+        <input
+        type="number"
+        value="3"
+        min="0"
+        max="10"
+        id="precision"
+        onchange="constrain()"> 자리까지 표시)</p>
+    </form>
+  </div>
+  <div>
+    <div id="usage">
+/*
+<p>Provide some of these parameters:</p>
+
+    <p class="one-line-code">
+      <code><span name="page_address">{page address}</span>?<span id="params">dpi=300&w=170&h=250&from=mm&to=px&prec=3&roundpixel=true</span></code>
+     </p>
+
+<p>Or provide none of them.</p>
+
+    <p class="one-line-code">
+      <code><span name="page_address">{page address}</span></code>
+    </p>
+
+*/    
+  </div>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
+
+

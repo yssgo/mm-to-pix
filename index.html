@@ -7,6 +7,8 @@
   <title>픽셀 단위 변환</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
   <script src="jquery-3.7.1.slim.min.js"></script>
+  <script src="script.js" defer></script>
+
 </head>
 
 <body>
@@ -106,7 +108,7 @@
         <input
         type="button"
         value="변환"
-        onclick="convert()"> (소수점 이하
+        onclick="convert();"> (소수점 이하
         <input
         type="number"
         value="3"
@@ -122,19 +124,18 @@
 <p>Provide some of these parameters:</p>
 
     <p class="one-line-code">
-      <code><span name="page_address">{page address}</span>?<span id="params">dpi=300&w=170&h=250&from=mm&to=px&prec=3&roundpixel=true</span></code>
+      <input type="text" id="full_url" size="150" readonly="readonly" />
      </p>
 
 <p>Or provide none of them.</p>
 
     <p class="one-line-code">
-      <code><span name="page_address">{page address}</span></code>
+      <input type="text" id="simple_url" size="100" readonly="readonly" />
     </p>
 
 */    
   </div>
-  <script src="script.js"></script>
-
+  
 </body>
 
 </html>

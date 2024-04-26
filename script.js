@@ -96,7 +96,10 @@ function convert(){
     url.searchParams.append('to', dest_unit);
     url.searchParams.append('prec', precision);
     url.searchParams.append('roundpixel', elemRoundPixel.checked);
-    jqr('#params').text(url.searchParams.toString());
+    //jqr('#params').text(url.searchParams.toString());
+    
+    jqr('#full_url').prop("value", page_address+"?"+ url.searchParams.toString() );
+    //jqr('#simple_url').prop("value", page_address);
 }
 function dpi_radio_changed(){
     let dpi = valueToFloat('input[type=radio][name=dpi_radio]:checked');
@@ -169,5 +172,6 @@ window.onload = function(){
     }
     convert();
     let page_address = url.origin + url.pathname;
-    jqr('#usage span[name="page_address"]').each(function(){jqr(this).text(page_address);});    
+    //jqr('#usage span[name="page_address"]').each(function(){jqr(this).text(page_address);});    
+    jqr('#simple_url').prop("value", page_address);
 }

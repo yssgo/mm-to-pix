@@ -32,6 +32,9 @@ p.one-line-code::before {
   font-weight: normal;
   font-style: normal;
 }
-h1, input[value="변환"] {
+input[value="변환"] {
    font-family: HangulNemoHand, NanumMyeojo, 나눔명조, Myeongjo, 명조, Serif;
+}
+#usae {
+  font-family: HangulNemoHand, NanumMyeojo, 나눔명조, Myeongjo, 명조, Serif;
 }

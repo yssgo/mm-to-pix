@@ -34,6 +34,7 @@ p.one-line-code::before {
 }
 div#usage {
   font-family: HangulNemoHand, NanumMyeojo, 나눔명조, Myeongjo, 명조, Serif;
+  font-size: 1.5em;
 }
 input[value="변환"] {
    font-family: HangulNemoHand, NanumMyeojo, 나눔명조, Myeongjo, 명조, Serif;

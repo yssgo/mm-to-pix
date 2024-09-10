@@ -28,9 +28,6 @@ p.one-line-code::before {
 @font-face {
   font-family: HangulNemoHand;
   src: 
-    local('HangulNemoHand'),
-    url('https://yssgo.github.io/mm-to-px/HangulNemoHand.woff2') format('woff2'),
-    url('https://yssgo.github.io/mm-to-px/HangulNemoHand.woff') format('woff'),    
     url('https://yssgo.github.io/mm-to-px/HangulNemoHand.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;

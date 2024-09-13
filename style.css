@@ -32,7 +32,7 @@ p.one-line-code::before {
   font-weight: normal;
   font-style: normal;
 }
-div#usage {
+#usage {
   font-family: HangulNemoHand;
   font-size: 2em;
 }
@@ -45,7 +45,7 @@ input[id^="nbUnits"]{
 }
 input[id="full_url"] {
   font-family: HangulNemoHand;
-  font-size: 1em;
+  font-size: 0.5em;
 }
 
 

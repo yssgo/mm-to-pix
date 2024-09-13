@@ -43,7 +43,7 @@ input[type="text"]{
   font-family: HangulNemoHand, Serif, "Sans Serif";
   font-size: 1.5em;
 }
-input[type="text"]#full_url {
+#full_url {
   font-size: 1.2em;
 }
 

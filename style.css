@@ -39,3 +39,8 @@ div#usage {
 input[value="변환"] {
    font-family: HangulNemoHand, NanumMyeojo, 나눔명조, Myeongjo, 명조, Serif;
 }
+input[type="text"] {
+  font-family: HangulNemoHand, Serif, "Sans Serif";
+}
+
+

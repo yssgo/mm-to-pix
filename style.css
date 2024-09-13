@@ -33,18 +33,19 @@ p.one-line-code::before {
   font-style: normal;
 }
 div#usage {
-  font-family: HangulNemoHand, NanumMyeojo, 나눔명조, Myeongjo, 명조, Serif;
+  font-family: HangulNemoHand;
   font-size: 2em;
 }
 input[value="변환"] {
-   font-family: HangulNemoHand, NanumMyeojo, 나눔명조, Myeongjo, 명조, Serif;
+   font-family: HangulNemoHand;
 }
 input[type="text"]{
-  font-family: HangulNemoHand, Serif, "Sans Serif";
+  font-family: HangulNemoHand;
   font-size: 1.5em;
 }
 #full_url {
-  font-size: 1.2em;
+  font-family: HangulNemoHand;
+  font-size: 1em;
 }
 
 

@@ -41,6 +41,7 @@ input[value="변환"] {
 }
 input[type="text"] {
   font-family: HangulNemoHand, Serif, "Sans Serif";
+  font-size: 1.5em;
 }
 
 

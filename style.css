@@ -39,11 +39,11 @@ div#usage {
 input[value="변환"] {
    font-family: HangulNemoHand;
 }
-input[type="text"]{
+input[id^="nbUnits"]{
   font-family: HangulNemoHand;
   font-size: 1.5em;
 }
-#full_url {
+input[id="full_url"] {
   font-family: HangulNemoHand;
   font-size: 1em;
 }

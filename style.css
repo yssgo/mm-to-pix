@@ -39,11 +39,11 @@ p.one-line-code::before {
 input[value="변환"] {
    font-family: HangulNemoHand;
 }
-input[id^="nbUnits"]{
+#nbUnitsX, #nbUnitsY, #nbUnitsConvetedX, #nbUnitsYConvertedY {
   font-family: HangulNemoHand;
   font-size: 1.5em;
 }
-input[id="full_url"] {
+#full_url {
   font-family: HangulNemoHand;
   font-size: 0.5em;
 }

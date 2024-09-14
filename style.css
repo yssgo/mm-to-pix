@@ -28,7 +28,7 @@ p.one-line-code::before {
 @font-face {
   font-family: HangulNemoHand;
   src: 
-    url('https://yssgo.github.io/mm-to-px/HangulNemoHand.otf') format('opentype');
+    url('https://yssgo.github.io/mm-to-px/HangulNemoHand.woff2') format('woff');
   font-weight: normal;
   font-style: normal;
 }

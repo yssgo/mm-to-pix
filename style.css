@@ -6,9 +6,9 @@
   font-style: normal;
 }
 @font-face {
-  font-family: HangulNemoTaza;
+  font-family: HangulTypewriterYune;
   src: 
-    url('https://yssgo.github.io/mm-to-px/HangulNemoTaza.woff2') format('woff');
+    url('https://yssgo.github.io/mm-to-px/HangulTypewriterYune.woff2') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -59,6 +59,6 @@ input[value="변환"] {
   font-size: 1em;
 }
 h1 {
-  font-family: HangulNemoTaza;
+  font-family: HangulTypewriterYune;
 }
 

@@ -9,7 +9,7 @@
   font-family: HangulYuneTaza;
   src: 
     url('https://yssgo.github.io/mm-to-px/HangulYuneTaza.woff2') format('woff');
-  font-weight: bold;
+  font-weight: normal;
   font-style: normal;
 }
 html, body {

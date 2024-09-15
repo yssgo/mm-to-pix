@@ -34,7 +34,10 @@ p.one-line-code::before {
 }
 #usage {
   font-family: HangulNemoHand;
-  font-size: 2em;
+  font-size: 1em;  
+}
+#usage p {
+  margin: 0.2em auto;
 }
 input[value="변환"] {
    font-family: HangulNemoHand;

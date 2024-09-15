@@ -16,6 +16,13 @@ html, body {
   height: 100%;
   width: 100%;
 }
+*{
+  font-family: HangulNemoHand;
+  font-size: 1.5em;
+}
+h1 {
+  font-family: HangulYuneTaza;
+}
 .disabled{
     background-color: lightgray;
 }
@@ -40,25 +47,9 @@ p.one-line-code::before {
   white-space: pre-wrap;
 }
 
-#usage {
-  font-family: HangulNemoHand;
-  font-size: 1.3em;  
-}
 #usage p {
   margin: 0.2em auto;
 }
-input[value="변환"] {
-   font-family: HangulNemoHand;
-}
-#nbUnitsX, #nbUnitsY, #nbUnitsConvertedX, #nbUnitsConvertedY, #precision, #dpi_text {
-  font-family: HangulNemoHand;
-  font-size: 1.5em;
-}
 #full_url {
-  font-family: HangulNemoHand;
   font-size: 1em;
 }
-h1 {
-  font-family: HangulYuneTaza;
-}
-

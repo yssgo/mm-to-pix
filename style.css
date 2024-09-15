@@ -16,7 +16,7 @@ html, body {
   height: 100%;
   width: 100%;
 }
-*{
+body{
   font-family: HangulNemoHand;
   font-size: 1.5em;
 }
@@ -40,7 +40,7 @@ div.content {
     text-align: center;
 }
 input[type=button] {
-  font-size: 2rem;
+  font-size: 2em;
 }
 p.one-line-code::before {
   content: '    ';

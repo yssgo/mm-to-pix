@@ -1,3 +1,17 @@
+@font-face {
+  font-family: HangulNemoHand;
+  src: 
+    url('https://yssgo.github.io/mm-to-px/HangulNemoHand.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: HangulNemoTaza;
+  src: 
+    url('https://yssgo.github.io/mm-to-px/HangulNemoTaza.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 html, body {
   height: 100%;
   width: 100%;
@@ -25,13 +39,7 @@ p.one-line-code::before {
   content: '    ';
   white-space: pre-wrap;
 }
-@font-face {
-  font-family: HangulNemoHand;
-  src: 
-    url('https://yssgo.github.io/mm-to-px/HangulNemoHand.woff2') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
+
 #usage {
   font-family: HangulNemoHand;
   font-size: 1.3em;  
@@ -50,5 +58,7 @@ input[value="변환"] {
   font-family: HangulNemoHand;
   font-size: 1em;
 }
-
+h1 {
+  font-family: HangulNemoTaza;
+}
 

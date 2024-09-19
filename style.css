@@ -8,6 +8,15 @@
   font-style: normal;
 }
 @font-face {
+  font-family: HangulNemoHand;
+  src: 
+    url('https://yssgo.github.io/mm-to-px/HangulNemoHandBold.woff2') format('woff'),
+    url('https://yssgo.github.io/mm-to-px/HangulNemoHandBold.ttf') format('truetype')
+    ;
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
   font-family: HangulYuneTaza;
   src: 
     url('https://yssgo.github.io/mm-to-px/HangulYuneTazaBold.woff2') format('woff'),
@@ -32,7 +41,8 @@ body, input, select{
   font-size: 1.5em;
 }
 h1 {
-  font-family: HangulYuneTaza;
+  font-family: HangulNemoHand;
+  font-weight: bold;
 }
 .disabled{
     background-color: lightgray;

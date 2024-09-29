@@ -2,7 +2,6 @@
   font-family: HangulNemoHand;
   src: 
     url('https://yssgo.github.io/mm-to-px/HangulNemoHand.woff2') format('woff'),
-    url('https://yssgo.github.io/mm-to-px/HangulNemoHand.ttf') format('truetype')
     ;
   font-weight: normal;
   font-style: normal;
@@ -11,25 +10,8 @@
   font-family: HangulNemoHand;
   src: 
     url('https://yssgo.github.io/mm-to-px/HangulNemoHandBold.woff2') format('woff'),
-    url('https://yssgo.github.io/mm-to-px/HangulNemoHandBold.ttf') format('truetype')
     ;
   font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: HangulYuneTaza;
-  src: 
-    url('https://yssgo.github.io/mm-to-px/HangulYuneTazaBold.woff2') format('woff'),
-    url('https://yssgo.github.io/mm-to-px/HangulYuneTazaBold.ttf') format('truetype');
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: HangulYuneTaza;
-  src: 
-    url('https://yssgo.github.io/mm-to-px/HangulYuneTaza.woff2') format('woff'),
-    url('https://yssgo.github.io/mm-to-px/HangulYuneTaza.ttf') format('truetype');
-  font-weight: normal;
   font-style: normal;
 }
 html, body {

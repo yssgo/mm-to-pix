@@ -1,7 +1,7 @@
 @font-face {
   font-family: HangulNemoHand;
   src: 
-    url('https://yssgo.github.io/mm-to-px/HangulNemoHand.woff2') format('woff'),
+    url('https://yssgo.github.io/mm-to-px/HangulNemoHand.woff') format('woff'),
     ;
   font-weight: normal;
   font-style: normal;
@@ -9,7 +9,7 @@
 @font-face {
   font-family: HangulNemoHand;
   src: 
-    url('https://yssgo.github.io/mm-to-px/HangulNemoHandBold.woff2') format('woff'),
+    url('https://yssgo.github.io/mm-to-px/HangulNemoHandBold.woff') format('woff'),
     ;
   font-weight: bold;
   font-style: normal;
